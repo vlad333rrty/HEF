@@ -16,7 +16,7 @@ import model.model as module_arch
 from parse_config import ConfigParser
 from trainer import Trainer
 
-
+# init
 def main(config):
     torch.tensor([1], device=torch.device('cuda'))  # This line is only for occupying gpus earlier >w<
     torch.manual_seed(config.seed)
